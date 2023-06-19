@@ -1,0 +1,22 @@
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+.card{
+        background-color: #333333;
+        padding: 20px 30px;
+        border-radius: 10px;
+}
+
+.form{
+        background-color: #33333390;
+        padding: 40px 20px;
+        border-radius: 10px;
+}
+.inputWrapper input{
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 5px 10px;
+}
