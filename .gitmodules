@@ -1,0 +1,3 @@
+[submodule "assignments/expend"]
+	path = assignments/expend
+	url = https://github.com/franklinobiukwu/expend.git
