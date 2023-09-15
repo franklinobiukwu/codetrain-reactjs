@@ -27,7 +27,7 @@ const DashboardNavbar = () => {
 
 	return (
 		<Flex justifyContent={"flex-end"} p={"10px"} bg={"gray.100"}>
-			<Avatar name="Franklin" ref={btnRef} onClick={onOpen}/>
+			<Avatar name="Franklin" ref={btnRef} onClick={onOpen} cursor={"pointer"}/>
 			<Drawer
 				isOpen={isOpen}
 				placement="right"

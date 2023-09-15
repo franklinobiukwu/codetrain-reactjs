@@ -1,0 +1,13 @@
+.hero-img-box {
+  /* width: 50rem; */
+  /* margin-top: 10%; */
+  background-image: url(/images/banner.jpg);
+}
+.hero-img {
+  /* -webkit-mask-position: top !important; */
+  /* overflow: hidden;
+  border-radius: 50%; */
+}
+.hero-p {
+  background-image: url(/images/banner.jpg);
+}

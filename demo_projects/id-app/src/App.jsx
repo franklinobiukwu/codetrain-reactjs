@@ -9,7 +9,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Stats from "./pages/Stats"
 import Profile from "./pages/Profile"
-import IdCard from "./components/IdCard"
+import IdPage from "./pages/IdPage"
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
@@ -21,7 +21,7 @@ const router = createBrowserRouter(
 			<Route path="/dashboard" element={<DashboardLayout />}>
 				<Route index element={<Stats />} />
 				<Route path="profile" element={<Profile />} />
-				<Route path="idmanagement" element={<IdCard/>}/>
+				<Route path="idmanagement" element={<IdPage />}/>
 			</Route>
 		</Route>
 	)

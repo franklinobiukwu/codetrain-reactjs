@@ -2,7 +2,6 @@ import { Avatar, Box, Text, Button, Card, CardBody, CardHeader, Flex, Heading, S
 
 const ProfileCard = () => {
 	return (
-		
 		<Box>
 			<Heading fontSize={"lg"} mb={2}>Profile</Heading>
 			<Card>
@@ -50,9 +49,9 @@ const ProfileCard = () => {
 									fontWeight={500}
 									size={"xs"}
 									>
-									Generation
+									Nationality
 								</Heading>
-								<Text>Gen 24</Text>
+								<Text>Nigerian</Text>
 							</Box>
 							<Box>
 								<Heading
